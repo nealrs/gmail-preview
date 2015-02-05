@@ -1,0 +1,161 @@
+body{
+  width:80%;margin:auto;
+  font-family: 'Roboto', sans-serif;
+  color: #111111;
+  text-align:center;
+  background-color:#ECF0F1;
+}
+
+.wrap {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 30px 0;
+
+}
+
+.main{
+  background-color:#fff;
+  color:#111111;
+  /*padding: 0 6px;*/
+  height:100%;
+  overflow:hidden;
+}
+
+.header img {
+  max-width:100%;
+  -webkit-box-shadow: 0px 2px 3px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 0px 5px 3px rgba(50, 50, 50, 0.5);
+  box-shadow: 0px 2px 3px rgba(50, 50, 50, 0.5);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {color: #2980B9;}
+a:active, a:hover {color: #E74C3C;}
+/*a:visited {color: #85144B;}*/
+
+
+.boxwrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+
+  -webkit-box-align: stretch;
+  -moz-box-align: stretch;
+  box-align: stretch;
+
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  box-direction: normal;
+
+  -webkit-box-pack: start;
+  -moz-box-pack: start;
+  box-pack: start;
+}
+
+.row {
+  -webkit-box-flex: 0;
+  -moz-box-flex: 0;
+  box-flex: 0;
+
+  -webkit-box-ordinal-group: 1;
+  -moz-box-ordinal-group: 1;
+  box-ordinal-group: 1;
+
+  padding: 1rem .75rem;
+  text-align:left;
+  border-bottom:1px solid #efefef;
+
+  overflow: hidden;
+}
+
+.fromline{
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+}
+
+.chevrons{
+  color:yellow;
+  text-shadow: -1px 0 #aaaaaa, 0 1px #aaaaaa, 1px 0 #aaaaaa, 0 -1px #aaaaaa;
+}
+
+.msgline{
+  font-family: 'Roboto', sans-serif;
+  font-size:12px;
+
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+
+  text-align:left;
+
+  color:#AAAAAA;
+}
+
+.l{
+  margin-right:.7rem;
+  float:left;
+}
+
+.l img{
+  border-radius:300px;
+  max-height:40px;
+}
+
+.c{
+  overflow:hidden;
+}
+
+.dateline {
+  font-size:10px;
+  overflow:hidden;
+  text-align:right;
+
+  position: relative;
+  top: 20%;
+}
+
+.r{
+  overflow:hidden;
+}
+
+
+/*inputs*/
+
+.i1{
+
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+
+  background-color: transparent;
+  border-style: solid;
+  border-width: 0;
+}
+
+.i2{
+
+  font-family: 'Roboto', sans-serif;
+  font-size:12px;
+  width:90%;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 0;
+  color:#AAAAAA;
+
+}
+
+.hover{
+  background-color:#FFDC00;
+}
